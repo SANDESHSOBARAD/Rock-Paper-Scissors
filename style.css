@@ -1,6 +1,7 @@
 *, html, body{
     margin: 0;
     padding: 0;
+    background-color: rgb(6, 165, 193);
 }
 
 .container{
@@ -26,8 +27,8 @@
 }
 
 .choices button{
-    height: 100px;
-    width: 100px;
+    height: 180px;
+    width: 180px;
     border: none;
     background-size: cover;
     background-position: center;
@@ -37,6 +38,8 @@
     padding: 0;
     margin: 5vmin;
     margin-top: 15vmin;
+    border-radius: 90px;
+    border: 1px solid black;
 }
 .choices button:hover{
     transform: scale(1.1); 
@@ -44,8 +47,8 @@
     
 }
 
-.result{
-    display:block;
+.result #msg{
+    display:none;
     color: gold;
     font-size: 3rem;
     font-weight: 800;
