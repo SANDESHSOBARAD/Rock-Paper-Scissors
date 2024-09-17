@@ -1,0 +1,69 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vmin;
+    background-color: black;
+    color: aqua;
+    padding: 2vmin;
+    font-size: 3rem;
+}
+
+.img-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-list button{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    margin: 5vmin;
+    margin-top: 15vmin;
+
+}
+
+.result{
+    display:block;
+    color: gold;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5vmin;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 5vmin;
+}
+
+.restart{
+    margin-top: 10vmin;
+}
+.restart button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: aquamarine;
+    background-color: black;
+}
