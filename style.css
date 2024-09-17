@@ -19,13 +19,13 @@
     font-size: 3rem;
 }
 
-.img-list{
+.choices{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.img-list button{
+.choices button{
     height: 100px;
     width: 100px;
     border: none;
@@ -37,7 +37,11 @@
     padding: 0;
     margin: 5vmin;
     margin-top: 15vmin;
-
+}
+.choices button:hover{
+    transform: scale(1.1); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
 }
 
 .result{
